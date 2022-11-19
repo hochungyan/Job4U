@@ -2,7 +2,7 @@
 
 function App() {
   return (
-<h1>JobForU</h1>
+<h1>JobsForU</h1>
   );
 }
 
