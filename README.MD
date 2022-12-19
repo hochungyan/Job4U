@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project is deployed using AWS Amplify[Click here](https://main.dvrbmyef6axp3.amplifyapp.com/).
+This project is deployed using AWS Amplify[Click here](https://main.dpio57f6y3x1k.amplifyapp.com/landing).
 
 ## Available Scripts
 
