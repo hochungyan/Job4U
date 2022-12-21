@@ -1,4 +1,4 @@
-import  { Logo,FormRow }  from '../components'
+import  { Logo,FormRow,Alert }  from '../components'
 import { useState, useEffect} from 'react'
 import Wrapper from '../assets/wrappers/RegisterPage'
 
@@ -7,6 +7,7 @@ name:'',
 email:'',
 password:'',
 isMember:true,
+showAlert:true,
 }
 const Register = () =>
 {
@@ -27,6 +28,7 @@ const onSubmit = (e) =>
             <form className='form' onSubmit ={onSubmit}>
             <Logo/> 
             <h3>Login</h3>
+            {values.showAlert && <Alert/>}
             {/* name */}
            <FormRow type ="text" name ="name" value={values.name} handleChange ={handleChange} /> 
            {/* email */}
