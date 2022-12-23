@@ -54,7 +54,7 @@ const onSubmit = (e) =>
             <button type ="submit" className ="btn btn-block">submit</button>
            <p>
             {values.isMember?'Not a Member yet?':'Already a member?'}
-            <button type ="button" onClick={toggleMember} className="member-btn">{values.isMember? 'Login': 'Register'}</button>
+            <button type ="button" onClick={toggleMember} className="member-btn">{values.isMember? 'Register': 'Login'}</button>
            </p>
             </form>
             </Wrapper>
